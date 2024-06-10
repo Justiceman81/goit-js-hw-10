@@ -51,7 +51,6 @@ refs.button.addEventListener('click', () => {
   refs.dateTime.disabled = true;
   initTimeId = setInterval(() => {
     const currentTime = Date.now();
-
     const diff = userSelectedDate - currentTime;
     const time = convertMs(diff);
     const str = getTime(time);
