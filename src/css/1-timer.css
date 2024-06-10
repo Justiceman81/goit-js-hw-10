@@ -70,12 +70,12 @@ button[data-start] {
   color: #2e2f42;
 }
 
-button.right-date {
+button.enabled {
   background: #4e75ff;
   color: #fff;
   cursor: pointer;
 }
 
-button.right-date:hover {
+button.enabled:hover {
   background: #6c8cff;
 }
